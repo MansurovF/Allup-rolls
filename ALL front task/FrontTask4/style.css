@@ -1,0 +1,61 @@
+.header{
+    position: fixed;
+    overflow: auto;
+    padding: 20px 5rem;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.navbar a{
+    color: white;
+    font-size: 17px;
+    margin-left: 26px;
+}
+ .slider a{
+    color: #fff;
+    background-color: #ffc800;
+    cursor: pointer;
+    padding: 12px 20px; 
+    font-size: 20px;
+    border-radius: 5px;
+    text-decoration: none;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ .slider h1 {
+    color: #fff;
+    padding-bottom: 40px;
+    font-size: 65px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ .slider h3{
+    color: #fff;
+    
+    font-size: 35px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+ }
+.logo svg{
+    width: 70%;
+}
+.logo{
+    float: left;
+}
+.navbar{
+    float: right;
+    margin-top:8px ;
+}
+.slider{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 20rem 0;
+
+}
+.service h1{
+    text-align: center;
+}
+.service p{
+    text-align: center;
+}

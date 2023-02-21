@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    padding-top: 10px;
+    img{
+        padding-top: 10px;
+
+    }
+}
+#Head{
+    .header1{
+        background-color: #131518;
+        display: flex;
+        justify-content: space-between;
+        .logo{
+        width: 200px;
+        }
+        a{
+            text-decoration: none;
+            margin-right: 1rem;
+            padding-top: 33px;
+            color: white;
+            font-size: 17px;
+        }
+        i{
+            padding-top: 15px;
+        }
+        
+    }
+    .nav{
+        a{
+            margin-left: 36px;
+            font-size: 17px;
+            color: #fff;
+        }
+        a:last-child{
+            border: 2px solid #b1b4c1;
+            color: #c6c9d8;
+            padding: 12px 1.2rem;
+            white-space: nowrap;
+            font-size: 15px;
+            border-radius: 8px;
+        }
+        i{
+            color: #fff;
+            margin: 0 30px;
+            position: relative;
+            &::after{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                content: '0';
+                border-radius: 100%;
+                font-size: 10px;
+                position: absolute;
+                bottom: 60%;
+                left: 60%;
+                width: 15px;
+                height: 15px;
+                background-color: red;
+                
+                
+            }
+        }
+    }
+}
+
+.header2{
+    background-color: #131518;
+    h1{
+        
+        color: red;
+        padding-top: 100px;
+        font-size: 100px;
+    }
+   
+    img{
+        width: 30%;
+    }
+    .card{
+        display: flex;
+        justify-content: sp;
+    }
+}
+
+#Body{
+    background-color:#131518;
+}
+.container{
+    background-color: #131518;
+}
+#P-body{
+    background-color: #101010;
+    .container{
+        .header3{
+            img{
+                transform: translateY(-7rem);
+            }
+            .about{
+                padding: 0 0 1rem 3rem;
+                span{
+                    color: red;
+                        margin-bottom: 10px;
+                        font-weight: bold;
+                }
+                h3{
+                    font-size: 40px;
+                    font-weight: bold;
+                    margin-bottom: 30px;
+                    color: white;
+        
+                }
+                p{
+
+                    color: #717173;
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+            }
+            .info{
+                padding: 2rem 0 3rem ;
+                span{
+                    color: red;
+                    margin: 2rem 0 2rem 0;
+                }
+                h3{
+                    color: red;
+                    font-size: 65px;
+                }
+                .col-lg-4{
+                    position: relative;
+                    &::before{
+                        content: '';
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 15%;
+                        height: 1%;
+                        background-color: red;
+                    }
+                }
+            }
+        }
+        
+    }
+}

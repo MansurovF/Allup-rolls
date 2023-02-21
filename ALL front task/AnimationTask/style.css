@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+}
+
+.military{
+    width: 100%;
+vertical-align: bottom;    
+}
+.miltary{
+    overflow: hidden;
+}
+.plane{
+    width: 20%;
+    position: absolute;
+    bottom: 0;
+    right: 100%;
+    animation: plane 10s ease-in infinite;
+}
+@keyframes plane {
+    0%{
+        bottom: 0;
+        right: 100%;
+        transform: rotate(0);
+        opacity: 1;
+
+    }
+    54%{
+        bottom: 70%;
+        right: 21%;
+        transform: rotate(0);
+        opacity: 1;
+    }
+    55%{
+        bottom: 70%;
+        right: 20%;
+        transform: rotate(30deg);
+        opacity: 1;
+
+    }
+    90%{
+        bottom: 0%;
+        right: 20%;
+        transform: rotate(60deg);
+        opacity: 1;
+    }
+    99%{
+        opacity: 1;
+
+    }
+    100%{
+        bottom: 0%;
+        right: 20%;
+        transform: rotate(60deg);
+        opacity: 0;
+    }
+}
+.kim-chen{
+    width: 12%;
+    border-radius: 100px;
+    position: absolute ;
+    bottom: 1rem;
+    right: 3%;
+}
+.rocket{
+    width: 7%;
+    position: absolute;
+    right: 0;
+    bottom: 10%;
+    animation: rocket 10s ease-in infinite;
+    opacity: 1;    
+}
+@keyframes rocket {
+    0%{
+        right: 0;
+        bottom: 10%;
+        opacity: 1;
+    }
+    20%{
+        right: 2%;
+        bottom: 12%;
+        opacity: 1;
+    }
+    54%{
+        right: 21%;
+        bottom: 70%;
+        opacity: 1;
+    }
+    55%{
+        right: 20%;
+        bottom: 70%;
+        opacity: 0;
+    }
+    100%{
+        right: 0;
+        bottom: 5%;
+        opacity: 0;
+    }
+}
+.rocket-system{
+    width: 18%;
+    right: 0;
+    bottom: 17%;
+    z-index: 100;
+    position: fixed;
+}
+.explosion{
+    width: 10%;
+    position: absolute;
+    right: 20%;
+    top: 10%;
+    opacity: 0;
+    animation: explosion 10s linear infinite  ;
+}
+@keyframes explosion {
+    0%{
+        opacity: 0;
+    }
+    54%{
+        opacity: 0;
+    }
+    55%{
+        opacity: 1;
+    }
+    68%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.booom{
+    position: absolute;
+    bottom: 1% ;
+    right: 14%;
+    width: 40%;
+    animation: booom 10s linear  infinite;
+    opacity: 0;
+}
+@keyframes booom{
+    0%{
+        opacity: 0;
+    }
+    89%{
+        opacity: 0;
+    }
+    93%{
+        opacity: 1;
+    }
+    98%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.circle{
+    z-index: 1;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(238, 255, 0);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    clip-path: circle(50% at 50% 50%);
+
+
+}
+.squere {
+    z-index: 2;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(11, 11, 129);
+    position: absolute;
+}

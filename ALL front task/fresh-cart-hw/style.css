@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container1{
+    background-image: url(https://freshcart.codescandy.com/assets/images/slider/slide-1.jpg);
+    width: 100%;
+    padding: 8rem 4rem;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-size: cover;
+
+}
+.container1 h2{
+margin-right: 100px;
+font-size: 3rem;
+}
+.container1 div a{
+    background-color: #001e2b;
+}
+.container1 div a i{
+    color: white;
+    font-weight: bold;
+    
+}
+.container1 h2{
+    margin: 10px 0;
+    font-weight: bold;
+}
+.container2 h2{
+    padding: 15px;
+    font-size: 1.5rem;
+}
+
+.item1{
+    background-image: url(https://freshcart.codescandy.com/assets/images/banner/grocery-banner.png);
+    padding: 3rem;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+.item2{
+    background-image: url(https://freshcart.codescandy.com/assets/images/banner/grocery-banner-2.jpg);
+    padding: 3rem;
+    border-radius: 10px;
+    border: none;
+    background-size: cover;
+    background-position: center;
+    
+    
+} 
+.products h2{
+    padding-top: 70px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.card-body i{
+    color: rgb(247, 192, 88);
+    font-size: 70%;
+    padding-bottom: 13px;
+}
+.card-body h5{
+    font-size: 15px;
+    margin-top: 5px;
+}
+.salam a{
+background-color: rgb(30, 175, 30);
+font-size: 12px;
+font-weight: bold;
+padding-bottom: 5px;
+}
+.items div a{
+    background-color:#001e2b;
+}
+.card-body small{
+    font-size: 13px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

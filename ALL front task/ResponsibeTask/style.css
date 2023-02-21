@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.head-all{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    margin-left: 1rem;
+}
+.left{
+    align-items: center;
+    display: flex;
+}
+.left a{
+    margin-left: 15px;
+    color: #666666;
+
+}
+.left div button{
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 40px;
+    margin-left: 20px;
+    padding: 8px;
+}
+.right a{
+    margin-right: 10px;
+    color: #666666;
+    padding-right: 10px;
+    
+}
+.right1{
+   margin-right: 30px;
+}
+.head-all2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    align-items: center;
+    margin-left: 30px;
+}
+.head-all3{
+    padding-top: 50px;
+    margin: 30px;
+}
+.head-all3 a{
+    color: #17253a;
+    margin-left: 15px;
+    
+}
+.head-all4{ 
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1f0f0;
+}
+.all4-right{
+    display: flex;
+    padding-top: 10px;
+    margin-left: 15px;
+    
+}
+.all5-right svg{
+    display: none;
+    margin-left: 5px;
+}
+.all5-right{
+    display: none;
+}
+.all4-right{
+    display: none;
+}
+.all4-left{
+    display: none;
+    padding-top: 10px;
+}
+
+.head-all5{
+    display: none;
+}
+.head-all5 svg{
+    width: 30%;
+}
+.all5-right i{
+    padding-top: 10px;
+    margin: 0 15px;
+    font-size: 30px;
+}
+.all5-right{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    margin: 10px;
+    
+}
+#Icon2{
+    display: none;
+}
+@media (max-width: 576px) {
+    .head-all{
+        display: none;
+    }
+    .head-all2{
+        display: none;
+    }
+    .head-all3{
+        display: none;
+    }
+    .head-all4{
+        display: block;
+        display: none;    
+        display: flex;
+        justify-content: space-between;
+    }
+    .all4-left{
+        margin-right: 20px;
+    }
+    .all4-left i{
+        margin-right: 10px;
+    }
+    .all4-left a{
+        margin: left 2px;
+    }
+    .head-all5{
+        display: block;
+    }
+    .all5-right svg{
+        display: block;
+    }
+    .all5-right{
+        display: block;
+        display: flex;
+        justify-content: space-between;
+    }
+    .all4-right{
+        display: block;
+    }
+    .all4-left{
+        display: block;
+    }
+
+}

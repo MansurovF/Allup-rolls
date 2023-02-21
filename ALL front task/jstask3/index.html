@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+            <p >amount</p>
+            <input id="amount" type="text"> <br>
+            <p>interest rate</p>
+            <input id="interest-rate" type="text">
+                <p>Month</p>
+            <select name="mounth" id="months">
+                <option value="12">12</option>
+                <option value="24">24</option>
+                <option value="36">36</option>
+                <option value="48">48</option>
+                <option value="64">64</option>
+            </select>
+            <button onclick="Calculate()" id="buton" > Calculate</button>        
+        <h2 class="price">Total Price : <span id="prices"></span></h2>
+        <h2 class="for-mounth">Payment : <span id="for-mounths"></span></h2> 
+
+        <script src="script.js"></script>
+    </body>
+</html>
