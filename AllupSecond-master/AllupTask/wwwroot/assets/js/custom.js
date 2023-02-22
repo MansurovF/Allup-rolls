@@ -8,7 +8,9 @@
 
         fetch(url)
             .then(res => {
-                console.log(res);
+                return res.text();
+            }).then(data => {
+                $('.header-cart').html(data)
             })
     })
 

@@ -19,6 +19,7 @@
     <Content Remove="C:\Users\LENOVO\.nuget\packages\bootstrap\5.2.3\contentFiles\any\any\wwwroot\js\bootstrap.js.map" />
     <Content Remove="C:\Users\LENOVO\.nuget\packages\bootstrap\5.2.3\contentFiles\any\any\wwwroot\js\bootstrap.min.js" />
     <Content Remove="C:\Users\LENOVO\.nuget\packages\bootstrap\5.2.3\contentFiles\any\any\wwwroot\js\bootstrap.min.js.map" />
+    <Content Remove="Views\Shared\_BasketCartPartial.cshtml" />
   </ItemGroup>
 
   <ItemGroup>

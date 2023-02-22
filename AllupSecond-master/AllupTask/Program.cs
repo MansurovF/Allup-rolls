@@ -14,7 +14,10 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromSeconds(10);
-}); 
+});
+
+builder.Services.AddHttpContextAccessor();
+
 builder.Services.AddScoped<ILayoutService, LayoutService>(); 
 
 var app = builder.Build();
