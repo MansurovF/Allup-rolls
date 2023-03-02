@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\AllupTask"
+    "\\AllupTask",
+    "\\AllupTask\\Controllers"
   ],
-  "SelectedNode": "\\AllupTask.sln",
+  "SelectedNode": "\\AllupTask\\Controllers\\BasketController.cs",
   "PreviewInSolutionExplorer": false
 }
